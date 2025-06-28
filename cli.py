@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+import utils.transport
+import utils.session
 import json, base64, hashlib, time, sys, re, random, string, os, shutil, asyncio, aiohttp, threading
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor
